@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-camc
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/asaran-tenant/partner-catalog-4/partner-catalog-camc@sha256:bd6d45587ba1833608689ac4592e686dec5c0f381d033ca7ba3fbde9fd4b9b9a
         name: my-java-springboot
         ports:
         - containerPort: 8081
